@@ -1,5 +1,5 @@
-#Asynchronous Socket
-###비동기 소켓이란?
+# Asynchronous Socket
+### 비동기 소켓이란?
 지금까지쓰레드, 프로세스, 에코서버 등 올린 것들은 동기 서버입니다.
 
 동기가 뭐냐 하면, 예를 들어 socket에서 Read/Recv를 하면 Send가 올때까지 기다리는 것을 동기라고 합니다.
@@ -14,11 +14,11 @@
 
 사용할 함수는 #include <fcnt.h>에있는 fcntl()함수를 사용하여 non-blocking 소켓 프로그래밍을 할 것입니다.
 
-###소스코드
+### 소스코드
 Server는 Ubuntu 32bit nano에디터로 작성되었습니다.
 
 Client는 Visual studio 2015환경에서 작성되었습니다.
-####Server
+#### Server
 ```
 #include <sys/socket.h>
 #include <sys/stat.h>

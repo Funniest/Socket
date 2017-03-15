@@ -1,5 +1,5 @@
-#Multi Thread
-###멀티 쓰레드 소켓
+# Multi Thread
+### 멀티 쓰레드 소켓
 멀티 프로세스 소켓에 이어서 1 : * 연결을 할 수 있는 방법 중 하나입니다.
 
 멀티 프로세스 소켓은 아래 그림 처럼 Client마다 하나의 프로세스가 생성되어 처리하게 됩니다.
@@ -22,11 +22,11 @@
 
 ![Alt text](https://github.com/Funniest/study/blob/master/Socket/Multi_Thread/img/Thread.PNG)
 
-###소스코드
+### 소스코드
 Server는 Ubuntu 32bit nano에디터로 작성되었습니다.
 
 Client는 Visual studio 2015환경에서 작성되었습니다.
-####Server
+#### Server
 ```
 #include <sys/socket.h>
 #include <sys/stat.h>
@@ -104,7 +104,7 @@ int main(int argc, char *argv[]){
 
 ```
 
-####Client
+#### Client
 ```
 #include <stdio.h>
 #include <winsock2.h>

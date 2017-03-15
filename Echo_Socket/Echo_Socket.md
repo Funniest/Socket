@@ -1,5 +1,5 @@
-#Echo Server
-###에코 서버란?
+# Echo Server
+### 에코 서버란?
 앞서 Hello Socket으로 그냥 Socket이 무엇인지 간단히 보았습니다.
 
 Hello Socket의 소스코드는 단순히 서버를 열고 클라이언트가 보여주면, "Hello Client"를 보내주고 종료합니다.
@@ -12,9 +12,9 @@ Echo란 아래 그림처럼 이야기를 하면 돌아오는 느낌입니다.
 
 Hello Socket의 소스와 달라진 부분은 크게 없습니다.
 
-###소스코드
+### 소스코드
 본 프로그램은 Visual studio 2015환경에서 작성되었습니다.
-####Server
+#### Server
 ```
 #include <stdio.h>
 #include <winsock2.h>

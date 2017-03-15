@@ -1,5 +1,5 @@
-#Socket Programming
-###소켓 프로그래밍?
+# Socket Programming
+### 소켓 프로그래밍?
 두대 이상의 컴퓨터 간의 통신을 할수있게 하는 프로그래밍이라고 생각합니다.
 
 이런 소켓들의 구현은 어떻게 해야할까요?
@@ -23,9 +23,9 @@ C언어의 소켓 구현은 아래 그림과 같이 서버, 클라 모두 Socket
 
 1 : 1로 통신을 하는 간단한 서버와 클라이언트를 코딩하여 보았습니다.
 
-###소스코드
+### 소스코드
 본 프로그램은 Visual studio 2015환경에서 작성되었습니다.
-####Server
+#### Server
 ```
 #include <stdio.h>
 #include <winsock2.h>
@@ -77,7 +77,7 @@ int main(int argc, char *args[]) {
 }
 ```
 
-####Client
+#### Client
 ```
 #include <stdio.h>
 #include <winsock2.h>

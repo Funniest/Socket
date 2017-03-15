@@ -1,5 +1,5 @@
-#Multi Process
-###멀티 프로세스 소켓
+# Multi Process
+### 멀티 프로세스 소켓
 지금까지 만든 2개의 프로젝트는 1 : 1 연결을 하였습니다.
 
 이번에는 조금 더 나아가 다중으로 1 : * 연결을 해보겠습니다.
@@ -16,12 +16,12 @@
 
 Echo의 클라이언트를 사용하였습니다.
 
-###소스코드
+### 소스코드
 Server는 Ubuntu 32bit nano에디터로 작성되었습니다.
 
 Client는 Visual studio 2015환경에서 작성되었습니다.
 
-####Server
+#### Server
 ```
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -104,7 +104,7 @@ int main(int argc, char *argv[]){
 }
 ```
 
-####Client
+#### Client
 ```
 #include <stdio.h>
 #include <winsock2.h>
