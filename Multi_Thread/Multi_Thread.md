@@ -10,7 +10,7 @@
 
 그만큼 CPU할당 시간을 짧게 나누어서 프로세스 하나마다 주어야하고, 컨텍스트 스위칭이 그만큼 많이 일어나기 때문입니다.
 
-![Alt text](https://github.com/Funniest/study/blob/master/Socket/Multi_Thread/img/Process.PNG)
+![Alt text](https://github.com/Funniest/Socket/blob/master/Multi_Thread/img/Process.PNG)
 
 반면, 멀티 쓰레드로 클라이언트를 처리하게 되면, 프로세스를 생성하는 것 보다 효율 적으로 처리할 수 있습니다.
 
@@ -20,7 +20,7 @@
 
 아래 그림을 보면 알 수 있듯이 프로세스를 새로 생성하는게 아니라 프로세스 내에 쓰레드를 생성해서 요청을 처리합니다.
 
-![Alt text](https://github.com/Funniest/study/blob/master/Socket/Multi_Thread/img/Thread.PNG)
+![Alt text](https://github.com/Funniest/Socket/blob/master/Multi_Thread/img/Thread.PNG)
 
 ### 소스코드
 Server는 Ubuntu 32bit nano에디터로 작성되었습니다.
