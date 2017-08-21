@@ -12,7 +12,7 @@
 
 아래 그림처럼 클라이언트에서 요청이 들어오면 새로 프로세스를 만들어서 요청을 처리하는 구조입니다.
 
-![Alt text](https://github.com/Funniest/study/blob/master/Socket/Multi_Process/img/Multi_Process.PNG)
+![Alt text](https://github.com/Funniest/Socket/blob/master/Multi_Process/img/Multi_Process.PNG)
 
 Echo의 클라이언트를 사용하였습니다.
 
