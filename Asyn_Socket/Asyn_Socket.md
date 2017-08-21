@@ -10,7 +10,7 @@
 
 반복문을 계속 반복하다 도중에 Client가 Send를 보내면 데이터를 받습니다.
 
-![Alt text](https://github.com/Funniest/study/blob/master/Socket/Asyn_Socket/img/Asyn.PNG)
+![Alt text](https://github.com/Funniest/Socket/blob/master/Asyn_Socket/img/Asyn.PNG)
 
 사용할 함수는 #include <fcnt.h>에있는 fcntl()함수를 사용하여 non-blocking 소켓 프로그래밍을 할 것입니다.
 
