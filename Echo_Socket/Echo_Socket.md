@@ -8,7 +8,7 @@ Hello Socket의 소스코드는 단순히 서버를 열고 클라이언트가 �
 
 Echo란 아래 그림처럼 이야기를 하면 돌아오는 느낌입니다.
 
-![Alt text](https://github.com/Funniest/study/blob/master/Socket/Echo_Socket/img/echo.PNG)
+![Alt text](https://github.com/Funniest/Socket/blob/master/Echo_Socket/img/echo.PNG)
 
 Hello Socket의 소스와 달라진 부분은 크게 없습니다.
 
